@@ -1,10 +1,11 @@
 import processing.core.PApplet;
-packa
+
 public class Button {
   int x,x2,y,y2;
   String buttonText;
 PApplet p ;
 Action a;
+
 Button(int x, int x2, int y, int y2, String buttonText, PApplet p){
 
     this.x = x;
@@ -22,10 +23,6 @@ public void display(){
     p.rect(x,y,x2,y2);
     p.textAlign(p.LEFT);
     p.text(buttonText,x,y);
-
-
-
-
 
 
 }
