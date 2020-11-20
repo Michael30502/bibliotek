@@ -1,3 +1,5 @@
+package uIHandler;
+
 import processing.core.PApplet;
 
 public class Button {
@@ -6,7 +8,7 @@ public class Button {
 PApplet p ;
 Action a;
 
-Button(int x, int x2, int y, int y2, String buttonText, PApplet p){
+ public Button(int x, int x2, int y, int y2, String buttonText, PApplet p){
 
     this.x = x;
     this.x2= x2;

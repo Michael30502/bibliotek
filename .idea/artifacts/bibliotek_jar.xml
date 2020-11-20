@@ -1,9 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="bibliotek:jar">
+  <artifact name="bibliotek:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/bibliotek_jar</output-path>
-    <root id="archive" name="bibliotek.jar">
-      <element id="module-output" name="bibliotek" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/processing/core/3.3.6/core-3.3.6.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="bibliotek.jar">
+        <element id="module-output" name="bibliotek" />
+      </element>
+      <element id="library" level="project" name="Maven: org.processing:core:3.3.6" />
     </root>
   </artifact>
 </component>
